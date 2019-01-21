@@ -1,0 +1,23 @@
+// 将键绑定放入此文件中以覆盖默认值
+[
+    { "key": "ctrl+x ctrl+k", "command": "workbench.action.closeActiveEditor","when": "editorTextFocus" },
+    { "key": "ctrl+o", "command": "editor.action.insertLineBefore" },
+    { "key": "ctrl+x ctrl+f", "command": "workbench.action.quickOpen" },
+    { "key": "ctrl+x ctrl+n", "command": "workbench.action.files.openFile" },
+    { "key": "alt+n", "command": "workbench.action.navigateEditorGroups" },
+    /*{ "key": "ctrl+shift+j", "command": "workbench.action.moveEditorLeftInGroup" },*/
+    { "key": "ctrl+\\", "command": "workbench.action.toggleSidebarVisibility" },
+    { "key": "ctrl+n", "command": "list.focusDown","when": "listFocus" },
+    { "key": "ctrl+p", "command": "list.focusUp","when": "listFocus" },
+    { "key": "ctrl+shift+v", "command": "editor.action.clipboardPasteAction","when": "editorTextFocus && !editorReadonly" },
+    { "key": "ctrl+j", "command": "editor.action.insertLineAfter","when": "editorTextFocus" },
+    { "key": "ctrl+shift+`", "command": "workbench.action.terminal.new" },
+    { "key": "ctrl+r", "command": "editor.action.startFindReplaceAction","when": "!findWidgetVisible" },
+    { "key": "ctrl+t", "command": "workbench.action.terminal.toggleTerminal" },
+    { "key": "ctrl+shift+t", "command": "workbench.action.terminal.new" },
+    { "key": "ctrl+shift+k", "command": "workbench.action.terminal.focusNext","when": "terminalFocus" },
+    { "key": "ctrl+shift+j", "command": "workbench.action.terminal.focusPrevious","when": "terminalFocus" },
+    { "key": "ctrl+shift+w", "command": "workbench.action.terminal.kill","when": "terminalFocus" },
+    { "key": "ctrl+shift+[", "command": "editor.fold"},
+    { "key": "ctrl+shift+]", "command": "editor.unfold"}
+]

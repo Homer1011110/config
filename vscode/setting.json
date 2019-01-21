@@ -1,0 +1,23 @@
+{
+    "editor.fontSize": 9,
+    "editor.tabSize": 4,
+    "files.autoSave": "onFocusChange",
+    "editor.renderWhitespace": "all",
+    "editor.cursorStyle": "line",
+    "editor.detectIndentation": false,
+    "editor.tabCompletion": true,
+    "editor.scrollBeyondLastLine": false,
+    "editor.minimap.enabled": false,
+    "editor.autoClosingBrackets": true,
+    "editor.acceptSuggestionOnEnter": true,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.renderControlCharacters": true,
+    "editor.renderIndentGuides": true,
+    "window.zoomLevel": 1,
+    "editor.formatOnPaste": true,
+    "files.associations": {
+        "*.tpl": "smarty",
+        "*.map": "json"
+    },
+    "javascript.validate.enable": false
+}
